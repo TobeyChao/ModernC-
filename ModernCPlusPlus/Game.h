@@ -16,9 +16,9 @@ fprintf(stderr, "%s Line %d:\t", __FILE__, __LINE__);\
 
 //2.1.2
 struct Test {
-    Test() : name(__func__) {}
+	Test() : name(__func__) {}
 
-    const char *name;
+	const char *name;
 };
 
 #endif //MODERNCPLUSPLUS_GAME_H
